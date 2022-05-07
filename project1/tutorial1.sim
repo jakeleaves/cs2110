@@ -1,0 +1,217 @@
+{
+  "version": "1.8.2 2110 version",
+  "globalBitSize": 1,
+  "clockSpeed": 1,
+  "circuits": [
+    {
+      "name": "Tutorial 1",
+      "components": [
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.NotGatePeer",
+          "x": 17,
+          "y": 12,
+          "properties": {
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.NotGatePeer",
+          "x": 17,
+          "y": 20,
+          "properties": {
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.AndGatePeer",
+          "x": 25,
+          "y": 12,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.AndGatePeer",
+          "x": 25,
+          "y": 18,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.gates.OrGatePeer",
+          "x": 35,
+          "y": 14,
+          "properties": {
+            "Negate 1": "No",
+            "Label location": "NORTH",
+            "Negate 0": "No",
+            "Number of Inputs": "2",
+            "Label": "",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 12,
+          "y": 12,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "a",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 12,
+          "y": 20,
+          "properties": {
+            "Label location": "WEST",
+            "Label": "b",
+            "Is input?": "Yes",
+            "Direction": "EAST",
+            "Bitsize": "1"
+          }
+        },
+        {
+          "name": "com.ra4king.circuitsim.gui.peers.wiring.PinPeer",
+          "x": 42,
+          "y": 15,
+          "properties": {
+            "Label location": "EAST",
+            "Label": "c",
+            "Is input?": "No",
+            "Direction": "WEST",
+            "Bitsize": "1"
+          }
+        }
+      ],
+      "wires": [
+        {
+          "x": 14,
+          "y": 13,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 14,
+          "y": 21,
+          "length": 1,
+          "isHorizontal": true
+        },
+        {
+          "x": 15,
+          "y": 15,
+          "length": 6,
+          "isHorizontal": false
+        },
+        {
+          "x": 15,
+          "y": 15,
+          "length": 10,
+          "isHorizontal": true
+        },
+        {
+          "x": 15,
+          "y": 21,
+          "length": 2,
+          "isHorizontal": true
+        },
+        {
+          "x": 16,
+          "y": 13,
+          "length": 1,
+          "isHorizontal": true
+        },
+        {
+          "x": 16,
+          "y": 13,
+          "length": 6,
+          "isHorizontal": false
+        },
+        {
+          "x": 16,
+          "y": 19,
+          "length": 9,
+          "isHorizontal": true
+        },
+        {
+          "x": 20,
+          "y": 13,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 20,
+          "y": 21,
+          "length": 5,
+          "isHorizontal": true
+        },
+        {
+          "x": 29,
+          "y": 14,
+          "length": 6,
+          "isHorizontal": true
+        },
+        {
+          "x": 29,
+          "y": 20,
+          "length": 6,
+          "isHorizontal": true
+        },
+        {
+          "x": 35,
+          "y": 14,
+          "length": 1,
+          "isHorizontal": false
+        },
+        {
+          "x": 35,
+          "y": 17,
+          "length": 3,
+          "isHorizontal": false
+        },
+        {
+          "x": 39,
+          "y": 16,
+          "length": 3,
+          "isHorizontal": true
+        }
+      ]
+    }
+  ],
+  "revisionSignatures": [
+    "CWE0NmUzMmM4NzJiZTRmNjBmMmM5NzZiMGE5OGQyMGUyZDNlYTExZjZjMjljMjE3NDM3Y2ZjN2NhZGI1MmE0ZWUJMTU2NjQ0NDIzNTYyMAliNTQzZDY0NTE1Y2U1YzE4M2JhNjU4MmRmNmJiOWEzMTQ2MWYyNzNmOWFiZGQ4NzZkYjVmYWYwNGZhODY1ZWYx",
+    "YTQ2ZTMyYzg3MmJlNGY2MGYyYzk3NmIwYTk4ZDIwZTJkM2VhMTFmNmMyOWMyMTc0MzdjZmM3Y2FkYjUyYTRlZQk4NWFhZmE5N2ZmOWRjZDk4NjdhMzgyMmM3Y2FkNzI4MzcyY2EyOTk3MGYwMWFmZjFhZGMxYzMzZTg2OThjZTY2CTE1NjY0NDQyNTk2MzMJMGY4MDk1YzE4YjkzNWQzZjU3MmEyZDQ3NDE5YTc0NjQwNDY3MzMxZTUxMTdkYmRmNjFmZTNkYjlmN2YyZDc4Yg\u003d\u003d",
+    "ODVhYWZhOTdmZjlkY2Q5ODY3YTM4MjJjN2NhZDcyODM3MmNhMjk5NzBmMDFhZmYxYWRjMWMzM2U4Njk4Y2U2Ngk0NDYzNjdhNmZiYThkYTgzYTUxMjU3NzJjOTdiNmNlN2M0OGMyMGM0ZTA0MmJmNmJhMmZhZWFjZjIxOWM4NGYwCTE1NjY1ODEyOTY4NzkJY2EwZTQ3MGZiNzNhMTUyNDI4N2YyNjNjMzA1ZWY2Mzg5YmYyYTQyOWQ3ZmIxMzgxNmYxNDhmNGY3OTA2YjM5YQ\u003d\u003d",
+    "NDQ2MzY3YTZmYmE4ZGE4M2E1MTI1NzcyYzk3YjZjZTdjNDhjMjBjNGUwNDJiZjZiYTJmYWVhY2YyMTljODRmMAkzMTNmMjQzMGE5YTE3MTA5OGJhZDNhNjI2MjNiNjJhZjUwNDk3OWE4ODRmN2M0MDg3M2JkNDhiNGRjNjM0YTUzCTE1NjY1ODE5NTYwNjgJMGY4MDk1YzE4YjkzNWQzZjU3MmEyZDQ3NDE5YTc0NjQwNDY3MzMxZTUxMTdkYmRmNjFmZTNkYjlmN2YyZDc4Yg\u003d\u003d",
+    "MzEzZjI0MzBhOWExNzEwOThiYWQzYTYyNjIzYjYyYWY1MDQ5NzlhODg0ZjdjNDA4NzNiZDQ4YjRkYzYzNGE1MwkzY2ZhODRlMDMzNzU3Yjk0MDY0Y2M3MzhmMTQ4OTZjMWE1NzJmODRmZGJiZjQ4MjM3ZWJiZWViYTczNGViM2Y5CTE1NjY1ODE5NjMyNjUJMGY4MDk1YzE4YjkzNWQzZjU3MmEyZDQ3NDE5YTc0NjQwNDY3MzMxZTUxMTdkYmRmNjFmZTNkYjlmN2YyZDc4Yg\u003d\u003d",
+    "M2NmYTg0ZTAzMzc1N2I5NDA2NGNjNzM4ZjE0ODk2YzFhNTcyZjg0ZmRiYmY0ODIzN2ViYmVlYmE3MzRlYjNmOQlmNmY2NGZmMjAyOTkwZjY2Nzg2NGI0NzZjYjBmYmVjNzBhMDc2MzkyYzBkNjNlYzA4YzA2MDEzM2Y2NTAzYjA0CTE2MzExMDg4OTY5NjQJYmQzMDMwYTQwZjkzZDY4ZDE4MjkyOTNiOTEwYzhjODU4NWQ1ODUzNDcxYzk3OTllZmRiMmFkOWFhODI2ZjMwOA\u003d\u003d",
+    "ZjZmNjRmZjIwMjk5MGY2Njc4NjRiNDc2Y2IwZmJlYzcwYTA3NjM5MmMwZDYzZWMwOGMwNjAxMzNmNjUwM2IwNAk5Y2ViZmJmODgwZjYzMTVjYjI3MWQwNzM0Njk3YmJjMGUxYTNkMGZjOWRkNGUxMmY4Y2Y4YmMxN2MwZWFiZWE3CTE2MzExMDg5MjY1NDIJMzUwZTFlOWYzMDY0MDQ0ZWI4ODY0MzRhMjIzZDNmYmI2YzA3MWI5NjdiZjNhMTZjODgwZTk3NTk0MGFmMmQxMg\u003d\u003d",
+    "OWNlYmZiZjg4MGY2MzE1Y2IyNzFkMDczNDY5N2JiYzBlMWEzZDBmYzlkZDRlMTJmOGNmOGJjMTdjMGVhYmVhNwljMTNjNjE5OTVjYTYyMGFmMGU0ZWJiZDZiOWRhYTg1MzE4NmQzYTYyMGMyYzhmZjFkMzA5OGZiZGY2MGVhNjgwCTE2MzExMDg5NzQ3MTEJMzUwZTFlOWYzMDY0MDQ0ZWI4ODY0MzRhMjIzZDNmYmI2YzA3MWI5NjdiZjNhMTZjODgwZTk3NTk0MGFmMmQxMg\u003d\u003d",
+    "YzEzYzYxOTk1Y2E2MjBhZjBlNGViYmQ2YjlkYWE4NTMxODZkM2E2MjBjMmM4ZmYxZDMwOThmYmRmNjBlYTY4MAk1ZGZhZGQ1ZjVlZmY0MzgxNmJlNWM2OGVlNjU0MjZmMDRhZmRmNmM0NWJmZTNkN2QxODg1YmI3ZjgxY2JiN2M1CTE2MzExMjEzNTk3NjEJYmQzMDMwYTQwZjkzZDY4ZDE4MjkyOTNiOTEwYzhjODU4NWQ1ODUzNDcxYzk3OTllZmRiMmFkOWFhODI2ZjMwOA\u003d\u003d"
+  ]
+}
